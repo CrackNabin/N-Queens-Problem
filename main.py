@@ -12,7 +12,7 @@ def main():
         for i, solution in enumerate(dfs_solutions):
             print('DFS Solution %d:' % (i + 1))
             n_queens.print(solution)
-    print('Total BFS solutions: %d' % len(dfs_solutions))
+    print('Total DFS solutions: %d' % len(dfs_solutions))
 
 
 if __name__ == '__main__':
